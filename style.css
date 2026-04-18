@@ -157,11 +157,11 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 8rem;
+    height: 8rem;
     background-color: transparent;
     border: 0.2rem solid #dd7d3c;
-    font-size: 2rem;
+    font-size: 4rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
@@ -180,9 +180,9 @@ span{
 
 
 .project-card {
-    width: 40%; /* الحجم اللي انت عايزه */
+    width: 50%; /* الحجم اللي انت عايزه */
     background: #1a1a1a;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
     text-decoration: none;
     color: #e0fdff;
@@ -191,9 +191,10 @@ span{
     align-items: center;
     transition: 0.3s;
     font-weight: bold;
-    margin-left: 25%;
+    margin-left: ;
     margin-bottom: 5rem;
-    height: 50%;
+    margin: 2rem auto;
+    height: 25vh;
 }
 
 .project-card:hover {
@@ -203,7 +204,7 @@ span{
 
 .project-card img {
     width: 100%;
-    height: 50%; /* تاخد أغلب الكارت */
+    height: 13vh; /* تاخد أغلب الكارت */
     object-fit: cover; /* يخلي الصورة مظبوطة */
     border-radius: 1rem;
     cursor: pointer;
@@ -220,7 +221,7 @@ span{
 
 .btn{
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1rem 8.8rem;
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
